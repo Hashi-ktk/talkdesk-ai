@@ -1,0 +1,276 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Tom Henderson",
+    "phone": "610-422-8891",
+    "email": "thenderson@gmail.com",
+    "source": "google-lsa",
+    "status": "new",
+    "serviceType": "AC Installation",
+    "estimatedValue": 8500,
+    "createdAt": "2026-02-27T09:30:00Z",
+    "lastContactedAt": null,
+    "notes": "Searched for 'AC installation Wayne PA'. New homeowner, needs central AC for first time.",
+    "interactions": [],
+    "assignedTo": null
+  },
+  {
+    "id": "lead-002",
+    "name": "Sandra Kim",
+    "phone": "484-271-5590",
+    "email": "sandrakim@outlook.com",
+    "source": "angi",
+    "status": "contacted",
+    "serviceType": "Central AC Installation",
+    "estimatedValue": 7200,
+    "createdAt": "2026-02-26T14:00:00Z",
+    "lastContactedAt": "2026-02-27T10:15:00Z",
+    "notes": "Found us on Angi. Radnor homeowner. 2,400 sq ft colonial. No existing ductwork in addition.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-27T10:15:00Z", "summary": "AI called to follow up on Angi lead. Discussed options. She wants to get two more quotes first.", "outcome": "callback-requested" }
+    ],
+    "assignedTo": "Ana Rodriguez"
+  },
+  {
+    "id": "lead-003",
+    "name": "Rich & Donna Caputo",
+    "phone": "610-296-7714",
+    "email": "rcaputo@comcast.net",
+    "source": "referral",
+    "status": "qualified",
+    "serviceType": "Furnace Replacement",
+    "estimatedValue": 6800,
+    "createdAt": "2026-02-22T11:00:00Z",
+    "lastContactedAt": "2026-02-26T15:30:00Z",
+    "notes": "Referred by Patrick Murphy (cust-019). 20-year-old furnace in Havertown home. Very interested.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-22T14:00:00Z", "summary": "Initial contact. Discussed furnace issues. Old Lennox system, frequent repairs.", "outcome": "interested" },
+      { "type": "call", "date": "2026-02-26T15:30:00Z", "summary": "Follow-up call. Ready for in-home estimate. Prefers weekday morning.", "outcome": "estimate-scheduled" }
+    ],
+    "assignedTo": "Mike Torres"
+  },
+  {
+    "id": "lead-004",
+    "name": "Amanda Liu",
+    "phone": "484-588-3201",
+    "email": "amandaliu@gmail.com",
+    "source": "website",
+    "status": "booked",
+    "serviceType": "Full HVAC Replacement",
+    "estimatedValue": 15000,
+    "createdAt": "2026-02-25T11:05:00Z",
+    "lastContactedAt": "2026-02-25T11:05:00Z",
+    "notes": "Havertown cape cod, 1960s home. Oil furnace + window units. Wants full modernization. High-value lead.",
+    "interactions": [
+      { "type": "inbound-call", "date": "2026-02-25T11:05:00Z", "summary": "Called in asking about complete HVAC overhaul. AI booked free estimate for Feb 28.", "outcome": "estimate-booked" }
+    ],
+    "assignedTo": "James Wilson"
+  },
+  {
+    "id": "lead-005",
+    "name": "Mark Stefano",
+    "phone": "610-337-4421",
+    "email": null,
+    "source": "google-lsa",
+    "status": "new",
+    "serviceType": "Furnace Repair",
+    "estimatedValue": 450,
+    "createdAt": "2026-02-27T12:30:00Z",
+    "lastContactedAt": null,
+    "notes": "Missed call from KoP area. Need to call back ASAP.",
+    "interactions": [],
+    "assignedTo": null
+  },
+  {
+    "id": "lead-006",
+    "name": "Christine Donovan",
+    "phone": "610-649-2213",
+    "email": "cdonovan@verizon.net",
+    "source": "thumbtack",
+    "status": "contacted",
+    "serviceType": "Ductless Mini-Split",
+    "estimatedValue": 5200,
+    "createdAt": "2026-02-20T16:00:00Z",
+    "lastContactedAt": "2026-02-25T09:00:00Z",
+    "notes": "Wants mini-split for garage conversion in Ardmore. Found us on Thumbtack.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-21T10:00:00Z", "summary": "Initial call. Discussed Mitsubishi vs Lennox mini-split options.", "outcome": "interested" },
+      { "type": "sms", "date": "2026-02-25T09:00:00Z", "summary": "Texted to check if she's ready to schedule estimate. No response yet.", "outcome": "awaiting-response" }
+    ],
+    "assignedTo": "Ana Rodriguez"
+  },
+  {
+    "id": "lead-007",
+    "name": "Phil & Teresa Mancini",
+    "phone": "610-688-4455",
+    "email": "tmancini@aol.com",
+    "source": "yelp",
+    "status": "lost",
+    "serviceType": "AC Replacement",
+    "estimatedValue": 7500,
+    "createdAt": "2026-02-10T13:00:00Z",
+    "lastContactedAt": "2026-02-20T11:30:00Z",
+    "notes": "Devon area. Found us on Yelp with 4.8 stars. Went with competitor - lower price.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-11T09:30:00Z", "summary": "Initial contact. They want to replace 15-year-old Trane AC.", "outcome": "estimate-scheduled" },
+      { "type": "estimate", "date": "2026-02-14T10:00:00Z", "summary": "James Wilson provided in-home estimate. $7,500 for Carrier 24ACC. Customer seemed interested.", "outcome": "quote-given" },
+      { "type": "call", "date": "2026-02-20T11:30:00Z", "summary": "Follow-up call. Customer chose competitor offering $6,200 for Goodman unit.", "outcome": "lost-to-competitor" }
+    ],
+    "assignedTo": "James Wilson"
+  },
+  {
+    "id": "lead-008",
+    "name": "Yolanda Price",
+    "phone": "484-367-1128",
+    "email": "yprice@gmail.com",
+    "source": "meta",
+    "status": "new",
+    "serviceType": "Heat Pump Installation",
+    "estimatedValue": 9500,
+    "createdAt": "2026-02-27T08:00:00Z",
+    "lastContactedAt": null,
+    "notes": "Clicked on Facebook ad about heat pump rebates. Ardmore address. Submitted form but missed our callback.",
+    "interactions": [],
+    "assignedTo": null
+  },
+  {
+    "id": "lead-009",
+    "name": "Dan & Kelly O'Shea",
+    "phone": "610-525-8834",
+    "email": "doshea@comcast.net",
+    "source": "referral",
+    "status": "qualified",
+    "serviceType": "Boiler Replacement",
+    "estimatedValue": 12000,
+    "createdAt": "2026-02-18T10:00:00Z",
+    "lastContactedAt": "2026-02-26T14:00:00Z",
+    "notes": "Referred by the Fitzgeralds (cust-015). Old boiler in Bryn Mawr stone home. Want to convert to forced air.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-18T14:30:00Z", "summary": "Initial contact. Boiler is 25 years old, leaking. Want to convert to forced air with AC.", "outcome": "interested" },
+      { "type": "call", "date": "2026-02-22T10:00:00Z", "summary": "Discussed ductwork requirements and timeline. They need it done before next winter.", "outcome": "estimate-requested" },
+      { "type": "call", "date": "2026-02-26T14:00:00Z", "summary": "Confirmed estimate appointment for March 3. Both homeowners will be present.", "outcome": "estimate-scheduled" }
+    ],
+    "assignedTo": "James Wilson"
+  },
+  {
+    "id": "lead-010",
+    "name": "Ray Nguyen",
+    "phone": "484-320-6678",
+    "email": "raynguyen@outlook.com",
+    "source": "google-lsa",
+    "status": "contacted",
+    "serviceType": "AC Repair",
+    "estimatedValue": 350,
+    "createdAt": "2026-02-26T08:45:00Z",
+    "lastContactedAt": "2026-02-26T09:15:00Z",
+    "notes": "Google Local Services lead. AC making noise. Malvern area.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-26T09:15:00Z", "summary": "Speed-to-lead call within 30 min. AC humming loudly but it's February - not urgent. Wants spring appointment.", "outcome": "callback-spring" }
+    ],
+    "assignedTo": "Sarah Chen"
+  },
+  {
+    "id": "lead-011",
+    "name": "Deborah Simmons",
+    "phone": "610-446-3392",
+    "email": "dsimmons@verizon.net",
+    "source": "meta",
+    "status": "contacted",
+    "serviceType": "Maintenance Plan",
+    "estimatedValue": 299,
+    "createdAt": "2026-02-24T19:00:00Z",
+    "lastContactedAt": "2026-02-25T10:30:00Z",
+    "notes": "Clicked Facebook ad for $99 tune-up special. Havertown. Has older Rheem system.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-25T10:30:00Z", "summary": "Called to discuss tune-up special. Also pitched maintenance plan. She wants to talk to husband.", "outcome": "thinking" }
+    ],
+    "assignedTo": "Kevin O'Brien"
+  },
+  {
+    "id": "lead-012",
+    "name": "Justin & Megan Park",
+    "phone": "610-254-9922",
+    "email": "jpark.home@gmail.com",
+    "source": "website",
+    "status": "qualified",
+    "serviceType": "Heat Pump Installation",
+    "estimatedValue": 11000,
+    "createdAt": "2026-02-19T20:00:00Z",
+    "lastContactedAt": "2026-02-25T16:00:00Z",
+    "notes": "Filled out website form for heat pump info. Wayne area, new construction. Want to go all-electric.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-20T09:00:00Z", "summary": "Discussed all-electric options. Very interested in Carrier Infinity heat pump with Greenspeed.", "outcome": "interested" },
+      { "type": "email", "date": "2026-02-21T11:00:00Z", "summary": "Sent brochure and rebate information for heat pumps.", "outcome": "info-sent" },
+      { "type": "call", "date": "2026-02-25T16:00:00Z", "summary": "Ready for estimate. Want to see Carrier and Lennox options side by side.", "outcome": "estimate-scheduled" }
+    ],
+    "assignedTo": "Ana Rodriguez"
+  },
+  {
+    "id": "lead-013",
+    "name": "Barbara West",
+    "phone": "610-566-8841",
+    "email": "bwest@comcast.net",
+    "source": "angi",
+    "status": "lost",
+    "serviceType": "Furnace Repair",
+    "estimatedValue": 500,
+    "createdAt": "2026-02-15T09:00:00Z",
+    "lastContactedAt": "2026-02-18T14:00:00Z",
+    "notes": "Media area. Needed furnace repair urgently but we couldn't get to her same day. Went with competitor.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-15T09:30:00Z", "summary": "Called requesting same-day furnace repair. We were booked. Offered next morning.", "outcome": "scheduling-conflict" },
+      { "type": "call", "date": "2026-02-18T14:00:00Z", "summary": "Called to follow up. She already had it fixed by another company.", "outcome": "lost-scheduling" }
+    ],
+    "assignedTo": "Mike Torres"
+  },
+  {
+    "id": "lead-014",
+    "name": "Eric & Vanessa Turner",
+    "phone": "484-412-5567",
+    "email": "eturner@gmail.com",
+    "source": "thumbtack",
+    "status": "booked",
+    "serviceType": "AC Tune-Up",
+    "estimatedValue": 199,
+    "createdAt": "2026-02-26T16:30:00Z",
+    "lastContactedAt": "2026-02-27T08:45:00Z",
+    "notes": "Thumbtack lead for spring AC tune-up. Radnor area. New to our service.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-27T08:45:00Z", "summary": "Speed-to-lead call. Booked spring tune-up for March 15. Also interested in maintenance plan.", "outcome": "booked" }
+    ],
+    "assignedTo": "Kevin O'Brien"
+  },
+  {
+    "id": "lead-015",
+    "name": "Natalie Russo",
+    "phone": "610-687-2218",
+    "email": "nrusso@yahoo.com",
+    "source": "google-lsa",
+    "status": "contacted",
+    "serviceType": "Furnace Installation",
+    "estimatedValue": 6500,
+    "createdAt": "2026-02-25T07:30:00Z",
+    "lastContactedAt": "2026-02-26T11:00:00Z",
+    "notes": "Bryn Mawr. Google LSA lead. 18-year-old furnace dying. Needs replacement before next winter.",
+    "interactions": [
+      { "type": "call", "date": "2026-02-25T08:15:00Z", "summary": "Quick response to lead. Discussed timeline and financing options.", "outcome": "interested" },
+      { "type": "call", "date": "2026-02-26T11:00:00Z", "summary": "Follow-up. She's comparing three companies. Wants estimate next week.", "outcome": "estimate-pending" }
+    ],
+    "assignedTo": "Mike Torres"
+  },
+  {
+    "id": "lead-016",
+    "name": "Howard Chen",
+    "phone": "610-644-5523",
+    "email": "hchen@outlook.com",
+    "source": "website",
+    "status": "new",
+    "serviceType": "Ductwork Inspection",
+    "estimatedValue": 800,
+    "createdAt": "2026-02-27T07:15:00Z",
+    "lastContactedAt": null,
+    "notes": "Malvern homeowner. Submitted online form about uneven heating. Suspects ductwork issues. Older home.",
+    "interactions": [],
+    "assignedTo": null
+  }
+]

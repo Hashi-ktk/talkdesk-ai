@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "accuracyRate": 94.2,
+    "pendingReview": 4,
+    "totalReclassified": 23,
+    "autoReclassified": 18,
+    "manualReclassified": 5,
+    "syncedToServiceTitan": 21,
+    "pendingSync": 2
+  },
+  "pendingReviews": [
+    {
+      "id": "reclass-024",
+      "callId": "call-007",
+      "customerName": "Tony Rizzo",
+      "timestamp": "2026-02-27T10:12:00Z",
+      "originalType": "inquiry",
+      "suggestedType": "install",
+      "reason": "Caller discussed replacing 12-year-old Goodman system with new AC and furnace package. Pricing and brand options were reviewed. High purchase intent detected.",
+      "confidence": 0.87,
+      "source": "ai"
+    },
+    {
+      "id": "reclass-025",
+      "callId": "call-009",
+      "customerName": "Unknown Caller",
+      "timestamp": "2026-02-27T11:03:00Z",
+      "originalType": "inquiry",
+      "suggestedType": "install",
+      "reason": "Voicemail mentions central AC installation quote. New homeowner in Radnor. Matches install criteria.",
+      "confidence": 0.78,
+      "source": "ai"
+    },
+    {
+      "id": "reclass-026",
+      "callId": "call-021",
+      "customerName": "Stephanie Harper",
+      "timestamp": "2026-02-26T15:30:00Z",
+      "originalType": "service",
+      "suggestedType": "inquiry",
+      "reason": "Call was about renewing maintenance plan, not scheduling service. No equipment issue reported. Better classified as inquiry.",
+      "confidence": 0.82,
+      "source": "ai"
+    },
+    {
+      "id": "reclass-027",
+      "callId": "call-030",
+      "customerName": "Colleen Murphy",
+      "timestamp": "2026-02-23T20:15:00Z",
+      "originalType": "after-hours",
+      "suggestedType": "emergency",
+      "reason": "No heat situation reported. Though resolved via troubleshooting, initial classification should reflect the emergency nature of the call.",
+      "confidence": 0.72,
+      "source": "ai"
+    }
+  ],
+  "history": [
+    {
+      "id": "reclass-001",
+      "callId": "call-028",
+      "customerName": "Unknown Caller (Tom)",
+      "timestamp": "2026-02-24T16:45:00Z",
+      "originalType": "inquiry",
+      "newType": "install",
+      "reason": "Voicemail content indicates interest in specific maintenance plan pricing, not general inquiry.",
+      "source": "manual",
+      "reviewedBy": "DJ Meadows",
+      "reviewedAt": "2026-02-25T08:15:00Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "reclass-002",
+      "callId": "call-019",
+      "customerName": "Susan Reilly",
+      "timestamp": "2026-02-26T14:10:00Z",
+      "originalType": "complaint",
+      "newType": "complaint",
+      "reason": "AI flagged as potential service call but manual review confirmed complaint classification is correct.",
+      "source": "manual",
+      "reviewedBy": "DJ Meadows",
+      "reviewedAt": "2026-02-26T15:00:00Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "reclass-003",
+      "callId": "call-033",
+      "customerName": "Helen Papadopoulos",
+      "timestamp": "2026-02-23T11:30:00Z",
+      "originalType": "inquiry",
+      "newType": "service",
+      "reason": "Warranty verification call is better classified as service-related since it pertains to an existing repair.",
+      "source": "ai",
+      "reviewedBy": null,
+      "reviewedAt": "2026-02-23T12:00:00Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "reclass-004",
+      "callId": "call-012",
+      "customerName": "Jennifer Walsh",
+      "timestamp": "2026-02-27T12:15:00Z",
+      "originalType": "service",
+      "newType": "install",
+      "reason": "Adding a humidifier is a new installation, not a repair/service on existing equipment.",
+      "source": "ai",
+      "reviewedBy": null,
+      "reviewedAt": "2026-02-27T12:45:00Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "reclass-005",
+      "callId": "call-029",
+      "customerName": "Lisa Chang",
+      "timestamp": "2026-02-24T10:15:00Z",
+      "originalType": "complaint",
+      "newType": "complaint",
+      "reason": "No reclassification needed. Complaint about heat pump performance is correctly classified.",
+      "source": "ai",
+      "reviewedBy": null,
+      "reviewedAt": "2026-02-24T11:00:00Z",
+      "syncStatus": "synced"
+    }
+  ]
+}

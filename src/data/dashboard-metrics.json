@@ -1,0 +1,33 @@
+{
+  "todayCalls": 47,
+  "todayBooked": 12,
+  "containmentRate": 81.2,
+  "avgResponseTime": 1.4,
+  "comparisonPeriod": "vs last week",
+  "callsTrend": 12.5,
+  "bookedTrend": 8.3,
+  "containmentTrend": 3.2,
+  "responseTrend": -15.4,
+  "liveFeed": [
+    { "id": "lf-001", "type": "emergency-detected", "title": "Emergency Call Detected", "description": "No heat emergency - Nancy Fitzgerald, Ardmore. Tech dispatched.", "timestamp": "2026-02-27T08:15:00Z", "urgent": true },
+    { "id": "lf-002", "type": "call-ended", "title": "Call Completed", "description": "Gas smell report handled. Thomas Wright, Malvern. Emergency dispatch sent.", "timestamp": "2026-02-27T07:55:00Z", "urgent": true },
+    { "id": "lf-003", "type": "appointment-booked", "title": "Appointment Booked", "description": "Spring AC tune-up scheduled for Robert Patterson - Mar 25, 8AM", "timestamp": "2026-02-27T09:32:00Z", "urgent": false },
+    { "id": "lf-004", "type": "lead-captured", "title": "New Lead Captured", "description": "Brian Walsh, Malvern - Heat pump installation inquiry ($12-14k est.)", "timestamp": "2026-02-27T09:58:00Z", "urgent": false },
+    { "id": "lf-005", "type": "appointment-booked", "title": "Appointment Booked", "description": "Evaporator coil replacement for Karen Bishop - Feb 27, 9AM", "timestamp": "2026-02-27T10:15:00Z", "urgent": false },
+    { "id": "lf-006", "type": "call-ended", "title": "Call Resolved", "description": "Mini-split remote issue resolved over phone for David Chen. No visit needed.", "timestamp": "2026-02-27T11:10:00Z", "urgent": false },
+    { "id": "lf-007", "type": "sms-received", "title": "SMS Received", "description": "Appointment confirmation reply from Nicole Brennan - confirmed Feb 28", "timestamp": "2026-02-27T12:08:00Z", "urgent": false },
+    { "id": "lf-008", "type": "call-started", "title": "Incoming Call", "description": "Call from Anthony Rizzo (484-555-0116) - Air purifier inquiry", "timestamp": "2026-02-27T12:30:00Z", "urgent": false },
+    { "id": "lf-009", "type": "appointment-booked", "title": "Appointment Booked", "description": "Thermostat diagnostic for George Walsh - Feb 27, 11AM", "timestamp": "2026-02-27T12:05:00Z", "urgent": false },
+    { "id": "lf-010", "type": "lead-captured", "title": "New Lead from Google LSA", "description": "Tom Henderson - AC installation inquiry, Wayne PA", "timestamp": "2026-02-27T09:30:00Z", "urgent": false }
+  ],
+  "recentActivity": [
+    { "id": "ra-001", "type": "call", "title": "Emergency call handled", "description": "No heat - Nancy Fitzgerald, Ardmore. Mike Torres dispatched.", "timestamp": "2026-02-27T08:15:00Z", "icon": "Phone" },
+    { "id": "ra-002", "type": "booking", "title": "Appointment scheduled", "description": "AC tune-up for Robert Patterson, March 25th", "timestamp": "2026-02-27T09:32:00Z", "icon": "Calendar" },
+    { "id": "ra-003", "type": "lead", "title": "New lead captured", "description": "Heat pump inquiry from Brian Walsh, Malvern", "timestamp": "2026-02-27T09:58:00Z", "icon": "UserPlus" },
+    { "id": "ra-004", "type": "resolved", "title": "Phone troubleshooting", "description": "Mini-split remote issue resolved for David Chen", "timestamp": "2026-02-27T11:10:00Z", "icon": "CheckCircle" },
+    { "id": "ra-005", "type": "sms", "title": "SMS confirmation", "description": "Appointment confirmed via text with Nicole Brennan", "timestamp": "2026-02-27T12:08:00Z", "icon": "MessageSquare" },
+    { "id": "ra-006", "type": "campaign", "title": "Campaign contact reached", "description": "Lead rehash: Kevin Malloy booked furnace estimate", "timestamp": "2026-02-27T10:00:00Z", "icon": "PhoneOutgoing" },
+    { "id": "ra-007", "type": "complaint", "title": "Complaint transferred", "description": "Catherine Kelly complaint escalated to manager", "timestamp": "2026-02-26T14:20:00Z", "icon": "AlertTriangle" },
+    { "id": "ra-008", "type": "emergency", "title": "After-hours emergency", "description": "CO detector - Marcus Thompson, KoP. Ana Rodriguez dispatched.", "timestamp": "2026-02-25T22:30:00Z", "icon": "AlertOctagon" }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "kpis": {
+    "totalCalls": 1442,
+    "leadsPercentage": 53,
+    "bookedPercentage": 58
+  },
+  "monthlyScores": [
+    { "month": "Jan", "score": 62 },
+    { "month": "Feb", "score": 58 },
+    { "month": "Mar", "score": 65 },
+    { "month": "Apr", "score": 70 },
+    { "month": "May", "score": 68 },
+    { "month": "Jun", "score": 75 },
+    { "month": "Jul", "score": 72 },
+    { "month": "Aug", "score": 78 },
+    { "month": "Sep", "score": 80 },
+    { "month": "Oct", "score": 76 },
+    { "month": "Nov", "score": 82 },
+    { "month": "Dec", "score": 85 }
+  ],
+  "unbookedReasons": {
+    "totalCalls": 52,
+    "reasons": [
+      { "label": "No availability", "count": 15, "percentage": 29, "color": "#6366f1" },
+      { "label": "Price objection", "count": 12, "percentage": 23, "color": "#f59e0b" },
+      { "label": "Needs follow-up", "count": 10, "percentage": 19, "color": "#10b981" },
+      { "label": "Wrong number", "count": 8, "percentage": 15, "color": "#ef4444" },
+      { "label": "Other", "count": 7, "percentage": 14, "color": "#94a3b8" }
+    ]
+  },
+  "recentCalls": [
+    {
+      "id": "rc-001",
+      "summary": "Customer called about AC repair, scheduled for next week",
+      "score": 92,
+      "agent": "Sarah Miller",
+      "customer": "John Peterson",
+      "duration": "4:32"
+    },
+    {
+      "id": "rc-002",
+      "summary": "Inquiry about new furnace installation pricing",
+      "score": 78,
+      "agent": "Mike Johnson",
+      "customer": "Emily Davis",
+      "duration": "6:15"
+    },
+    {
+      "id": "rc-003",
+      "summary": "Emergency no-heat call, dispatched technician",
+      "score": 95,
+      "agent": "Sarah Miller",
+      "customer": "Robert Chang",
+      "duration": "3:48"
+    },
+    {
+      "id": "rc-004",
+      "summary": "Follow-up on maintenance plan renewal",
+      "score": 65,
+      "agent": "Lisa Wang",
+      "customer": "Nancy Fitzgerald",
+      "duration": "8:22"
+    },
+    {
+      "id": "rc-005",
+      "summary": "Heat pump diagnostic appointment booking",
+      "score": 88,
+      "agent": "Mike Johnson",
+      "customer": "Thomas Wright",
+      "duration": "5:10"
+    },
+    {
+      "id": "rc-006",
+      "summary": "Customer requested estimate for ductwork replacement",
+      "score": 71,
+      "agent": "Lisa Wang",
+      "customer": "Kevin Malloy",
+      "duration": "7:45"
+    },
+    {
+      "id": "rc-007",
+      "summary": "Thermostat programming assistance and upsell",
+      "score": 84,
+      "agent": "Sarah Miller",
+      "customer": "Diana Ross",
+      "duration": "4:05"
+    },
+    {
+      "id": "rc-008",
+      "summary": "Complaint about delayed service appointment",
+      "score": 42,
+      "agent": "Mike Johnson",
+      "customer": "James Wilson",
+      "duration": "9:30"
+    }
+  ]
+}

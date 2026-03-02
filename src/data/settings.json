@@ -1,0 +1,33 @@
+{
+  "businessHours": [
+    { "day": "Monday", "open": "07:00", "close": "19:00", "enabled": true },
+    { "day": "Tuesday", "open": "07:00", "close": "19:00", "enabled": true },
+    { "day": "Wednesday", "open": "07:00", "close": "19:00", "enabled": true },
+    { "day": "Thursday", "open": "07:00", "close": "19:00", "enabled": true },
+    { "day": "Friday", "open": "07:00", "close": "19:00", "enabled": true },
+    { "day": "Saturday", "open": "08:00", "close": "16:00", "enabled": true },
+    { "day": "Sunday", "open": "00:00", "close": "00:00", "enabled": false }
+  ],
+  "serviceAreaZips": ["19087","19010","19406","19003","19333","19355","19083","19063","19312","19035","19041","19066","19096","19050","19008","19073","19085","19460","19301","19342"],
+  "greetingScript": "This call may be recorded for quality assurance and training purposes. Thank you for calling All-Temp Heating & Cooling. My name is Alex. You're speaking with our virtual assistant. How can I brighten your day?",
+  "afterHoursScript": "This call may be recorded for quality assurance and training purposes. Thank you for calling All-Temp Heating & Cooling. Our office is currently closed. Our regular business hours are Monday through Friday, 7 AM to 7 PM, and Saturday 8 AM to 4 PM. If you smell gas or suspect a carbon monoxide leak, please leave your home immediately and call 911. If you are experiencing a heating or cooling emergency, please press 1 or stay on the line and I'll help you right away. For all other inquiries, please leave a message and we'll return your call on the next business day.",
+  "gasCOSafetyScript": "If you smell gas or your carbon monoxide detector is going off, please leave your home immediately. Do not use any light switches, phones, or appliances inside the home. Once you are safely outside, call 911 and your gas company's emergency line. Do not re-enter your home until emergency services have cleared it. We will dispatch a technician to inspect your system once the fire department confirms it is safe to enter.",
+  "electricalSafetyScript": "If you see sparking, smell burning near your HVAC equipment, or notice smoke coming from your unit, please shut off the system at the breaker panel if it is safe to do so, and leave the area immediately. Do not touch the equipment. If there is active smoke or fire, call 911 right away. Once you are safe, call us back and we will dispatch an emergency technician to inspect your system.",
+  "newInstallScript": "Before we discuss installation options, I just need to confirm a few things. First, are you the homeowner? Great. Is this a replacement for an existing system or a brand-new installation? What type of system do you currently have? How many square feet is your home approximately? How many floors? What is your timeline for the installation? And lastly, would you be interested in hearing about our financing options?",
+  "followUpSurveyScript": "Before we wrap up, I'd love to get your quick feedback. Did we get your issue scheduled quickly and correctly? Is there anything else we could have done better on this call? Your feedback helps us improve our service. Thank you!",
+  "emergencyKeywords": ["no heat", "no cooling", "gas smell", "carbon monoxide", "CO detector", "water leak", "flooding", "smoke", "fire", "frozen pipes", "burst pipe", "no hot water", "sparking", "electrical smell", "burning smell", "house is cold", "house is hot", "baby", "elderly", "medical condition"],
+  "callRouting": [
+    { "id": "route-001", "name": "Emergency Calls", "condition": "Emergency keywords detected OR urgency = critical", "destination": "On-call technician + Manager notification", "priority": 1, "enabled": true },
+    { "id": "route-002", "name": "Commercial Customers", "condition": "Customer tagged as 'commercial' or 'medical-facility'", "destination": "Priority queue + Account manager", "priority": 2, "enabled": true },
+    { "id": "route-003", "name": "Complaints", "condition": "Complaint keywords or negative sentiment detected", "destination": "Transfer to DJ Meadows (manager)", "priority": 3, "enabled": true },
+    { "id": "route-004", "name": "After-Hours Non-Emergency", "condition": "Outside business hours AND no emergency keywords", "destination": "AI takes message for morning callback", "priority": 4, "enabled": true }
+  ],
+  "team": [
+    { "id": "tm-001", "name": "DJ Meadows", "role": "admin", "email": "dj@alltempphilly.com", "phone": "6105551000", "status": "active", "permissions": ["all"] },
+    { "id": "tm-002", "name": "Lisa Chen", "role": "csr", "email": "lchen@alltempphilly.com", "phone": "6105551001", "status": "active", "permissions": ["calls", "scheduling", "customers"] },
+    { "id": "tm-003", "name": "Mike Torres", "role": "technician", "email": "mtorres@alltempphilly.com", "phone": "6105551201", "status": "active", "permissions": ["schedule", "customers"] },
+    { "id": "tm-004", "name": "Sarah Chen", "role": "technician", "email": "schen@alltempphilly.com", "phone": "6105551202", "status": "active", "permissions": ["schedule", "customers"] },
+    { "id": "tm-005", "name": "James Wilson", "role": "technician", "email": "jwilson@alltempphilly.com", "phone": "6105551203", "status": "active", "permissions": ["schedule", "customers"] },
+    { "id": "tm-006", "name": "Ana Rodriguez", "role": "technician", "email": "arodriguez@alltempphilly.com", "phone": "6105551204", "status": "active", "permissions": ["schedule", "customers"] }
+  ]
+}

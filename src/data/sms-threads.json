@@ -1,0 +1,278 @@
+[
+  {
+    "id": "sms-001",
+    "customerName": "Nicole Brennan",
+    "customerPhone": "610-896-4417",
+    "customerId": "cust-021",
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi Nicole! This is Alex from All-Temp Heating & Cooling. We have you scheduled for a furnace diagnostic tomorrow (Feb 28) between 10 AM - 12 PM. Your technician will be Sarah Chen. Does this still work for you?",
+        "timestamp": "2026-02-27T12:00:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Yes that works! Will she call before coming?",
+        "timestamp": "2026-02-27T12:08:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Absolutely! Sarah will call you about 30 minutes before arrival. Just a reminder - please make sure your thermostat is set to heat mode so she can observe the issue. Is there anything else you need?",
+        "timestamp": "2026-02-27T12:09:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Perfect, thanks! The furnace has been acting up again today - blowing cold air for about 10 min then it kicks back on",
+        "timestamp": "2026-02-27T12:12:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Thanks for that detail, Nicole. I've added that note to your appointment so Sarah is prepared. That intermittent behavior could be a flame sensor issue - very common and usually a quick fix. See you tomorrow!",
+        "timestamp": "2026-02-27T12:13:00Z",
+        "status": "delivered"
+      }
+    ],
+    "lastMessageAt": "2026-02-27T12:13:00Z",
+    "unread": false,
+    "status": "active"
+  },
+  {
+    "id": "sms-002",
+    "customerName": "Raj Patel",
+    "customerPhone": "484-580-2241",
+    "customerId": "cust-010",
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi Raj! This is Alex from All-Temp. Just following up on your thermostat WiFi issue from yesterday. Were you able to stay connected after we walked through the troubleshooting steps?",
+        "timestamp": "2026-02-27T09:30:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Hey Alex. It worked for a few hours but disconnected again overnight. The thermostat shows 'WiFi error' now",
+        "timestamp": "2026-02-27T10:15:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Sorry to hear that. It might be a firmware issue with the Carrier Infinity thermostat. We can send a technician to take a look and update the firmware if needed. Would you like to schedule a visit? As a Premium member, this would be covered under your plan.",
+        "timestamp": "2026-02-27T10:16:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Oh great that it's covered. Yes please, can someone come this week?",
+        "timestamp": "2026-02-27T10:22:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "I have availability on Saturday Feb 28 between 1 PM - 3 PM with Kevin O'Brien. He's great with smart thermostat systems. Would that work?",
+        "timestamp": "2026-02-27T10:23:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Saturday works. Book it!",
+        "timestamp": "2026-02-27T10:25:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Done! You're booked for Saturday Feb 28, 1-3 PM with Kevin O'Brien. He'll call 30 min before arrival. In the meantime, your system should still heat/cool normally even without WiFi - you just won't have remote control. Let us know if anything changes!",
+        "timestamp": "2026-02-27T10:26:00Z",
+        "status": "delivered"
+      }
+    ],
+    "lastMessageAt": "2026-02-27T10:26:00Z",
+    "unread": false,
+    "status": "active"
+  },
+  {
+    "id": "sms-003",
+    "customerName": "Angela Brooks",
+    "customerPhone": "610-644-1187",
+    "customerId": "cust-006",
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi Angela! This is Alex from All-Temp. Just a friendly reminder that your Premium maintenance visit is coming up on March 20. We'll be doing a spring tune-up on your York heat pump. Would you like to keep that date or reschedule?",
+        "timestamp": "2026-02-27T08:00:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "March 20 works for me. What time?",
+        "timestamp": "2026-02-27T08:45:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Great! We have morning (8-10 AM) or afternoon (2-4 PM) slots available. Which do you prefer?",
+        "timestamp": "2026-02-27T08:46:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Morning please. Also I wanted to ask about adding a mini-split to my home office. Is that something you can quote?",
+        "timestamp": "2026-02-27T09:02:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Absolutely! We install ductless mini-splits regularly. I see you actually called us about this yesterday. I can have the technician do both the maintenance AND a mini-split assessment during the March 20 visit, or we can schedule a separate free estimate sooner. What would you prefer?",
+        "timestamp": "2026-02-27T09:03:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Let's do both on March 20 if that works. Kill two birds with one stone!",
+        "timestamp": "2026-02-27T09:10:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Perfect! I've scheduled you for March 20, 8-10 AM for your heat pump tune-up + mini-split consultation. We'll send Ana Rodriguez who specializes in mini-splits. She'll be able to recommend the right size and give you a quote on the spot. Have a great day!",
+        "timestamp": "2026-02-27T09:11:00Z",
+        "status": "delivered"
+      }
+    ],
+    "lastMessageAt": "2026-02-27T09:11:00Z",
+    "unread": false,
+    "status": "active"
+  },
+  {
+    "id": "sms-004",
+    "customerName": "David Mitchell",
+    "customerPhone": "610-768-2234",
+    "customerId": "cust-003",
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi David, this is Alex from All-Temp. Mike Torres completed the emergency furnace repair at your home this morning. He replaced the control board and your furnace is back up and running. Total cost: $685. How is everything working now?",
+        "timestamp": "2026-02-26T14:00:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Heat is back on, thank you! Mike was great. But I need to talk to someone about replacing this system. It keeps breaking down",
+        "timestamp": "2026-02-26T14:35:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "I completely understand, David. Your Trane system is about 11 years old and the warranty expired last July. With the recent repairs adding up, a replacement might make financial sense. Would you like us to schedule a free in-home estimate? We can show you options from Carrier, Lennox, and Trane with financing available.",
+        "timestamp": "2026-02-26T14:36:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Yes let's do that. When can someone come out?",
+        "timestamp": "2026-02-26T14:42:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "I have James Wilson available this Saturday Feb 28 at 11 AM. He's our senior installation specialist with 18 years experience. He'll walk you through all the options and help you find the best fit for your home and budget. Does that work?",
+        "timestamp": "2026-02-26T14:43:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Saturday at 11 works. My wife Karen will be home too",
+        "timestamp": "2026-02-26T14:48:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "You're all set for Saturday Feb 28 at 11 AM with James Wilson for a free replacement estimate. He'll bring information on all our top brands and current rebates. Looking forward to helping you find a reliable solution! Have a warm evening.",
+        "timestamp": "2026-02-26T14:49:00Z",
+        "status": "delivered"
+      }
+    ],
+    "lastMessageAt": "2026-02-26T14:49:00Z",
+    "unread": false,
+    "status": "active"
+  },
+  {
+    "id": "sms-005",
+    "customerName": "Christine Donovan",
+    "customerPhone": "610-649-2213",
+    "customerId": null,
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi Christine! This is Alex from All-Temp Heating & Cooling. We spoke last week about a ductless mini-split for your garage conversion in Ardmore. Are you still interested in scheduling a free estimate?",
+        "timestamp": "2026-02-25T09:00:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Hi! Yes I am but I've been busy. How much does a mini-split typically cost?",
+        "timestamp": "2026-02-27T11:30:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "No worries! A single-zone ductless mini-split typically ranges from $3,500-$5,500 installed, depending on the brand and capacity needed. For a garage conversion, we usually recommend a 12,000 or 18,000 BTU unit. Mitsubishi and Lennox are our most popular options. The exact price depends on your specific setup - that's what the free estimate covers.",
+        "timestamp": "2026-02-27T11:31:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Ok that's in my budget range. Can we do the estimate next week sometime?",
+        "timestamp": "2026-02-27T11:38:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "We have openings on Tuesday March 3 (morning or afternoon) or Thursday March 5 (morning). Which works best for you?",
+        "timestamp": "2026-02-27T11:39:00Z",
+        "status": "delivered"
+      }
+    ],
+    "lastMessageAt": "2026-02-27T11:39:00Z",
+    "unread": true,
+    "status": "active"
+  },
+  {
+    "id": "sms-006",
+    "customerName": "Susan Reilly",
+    "customerPhone": "610-566-3348",
+    "customerId": "cust-008",
+    "messages": [
+      {
+        "sender": "ai",
+        "content": "Hi Susan, this is Alex from All-Temp. I'm following up on your call yesterday. I want you to know that our service manager, Dave, will be calling you personally this afternoon to discuss your concerns about the last tune-up visit. We take your feedback very seriously.",
+        "timestamp": "2026-02-27T10:00:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Thank you for following up. I appreciate that. What time should I expect the call?",
+        "timestamp": "2026-02-27T10:18:00Z",
+        "status": "received"
+      },
+      {
+        "sender": "ai",
+        "content": "Dave will call you between 2-3 PM today. He may also offer to schedule a complimentary follow-up visit to make sure everything was properly addressed. We value you as a customer and want to make this right.",
+        "timestamp": "2026-02-27T10:19:00Z",
+        "status": "delivered"
+      },
+      {
+        "sender": "customer",
+        "content": "Ok I'll be available then. Thanks for taking this seriously",
+        "timestamp": "2026-02-27T10:24:00Z",
+        "status": "received"
+      }
+    ],
+    "lastMessageAt": "2026-02-27T10:24:00Z",
+    "unread": false,
+    "status": "active"
+  }
+]

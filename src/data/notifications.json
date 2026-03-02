@@ -1,0 +1,10 @@
+[
+  { "id": "notif-001", "type": "error", "title": "Emergency: No Heat", "message": "Nancy Fitzgerald (Ardmore) - furnace unresponsive, house at 52°F. Mike Torres dispatched.", "timestamp": "2026-02-27T08:15:00Z", "read": false, "actionUrl": "/calls/call-001" },
+  { "id": "notif-002", "type": "warning", "title": "Gas Smell Reported", "message": "Thomas Wright (Malvern) reports gas smell near furnace. Emergency protocol initiated.", "timestamp": "2026-02-27T07:42:00Z", "read": false, "actionUrl": "/calls/call-002" },
+  { "id": "notif-003", "type": "success", "title": "Lead Converted", "message": "Kevin Malloy from Lead Rehash campaign booked a furnace estimate appointment.", "timestamp": "2026-02-27T10:00:00Z", "read": false, "actionUrl": "/outbound/campaign-001" },
+  { "id": "notif-004", "type": "info", "title": "New Lead: Google LSA", "message": "Tom Henderson searching for AC installation in Wayne. Estimated value: $8,500.", "timestamp": "2026-02-27T09:30:00Z", "read": true, "actionUrl": "/leads/lead-001" },
+  { "id": "notif-005", "type": "warning", "title": "Complaint Escalated", "message": "Catherine Kelly complaint about service cleanliness transferred to manager.", "timestamp": "2026-02-26T14:20:00Z", "read": true, "actionUrl": "/calls/call-013" },
+  { "id": "notif-006", "type": "info", "title": "Membership Renewal Due", "message": "Susan O'Donnell's Basic plan expires soon. Interested in Premium upgrade.", "timestamp": "2026-02-26T15:00:00Z", "read": true, "actionUrl": "/customers/cust-007" },
+  { "id": "notif-007", "type": "success", "title": "Campaign Milestone", "message": "Lead Rehash Q1 campaign reached 60% contact rate. 3 bookings this week.", "timestamp": "2026-02-26T17:00:00Z", "read": true, "actionUrl": "/outbound/campaign-001" },
+  { "id": "notif-008", "type": "info", "title": "System Update", "message": "AI call handling model updated. Improved emergency keyword detection accuracy by 12%.", "timestamp": "2026-02-25T09:00:00Z", "read": true, "actionUrl": null }
+]

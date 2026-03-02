@@ -1,0 +1,67 @@
+[
+  {
+    "id": "tech-001",
+    "name": "Mike Torres",
+    "phone": "484-320-1145",
+    "email": "mtorres@alltempphilly.com",
+    "specialties": ["Gas Furnaces", "Oil Furnaces", "Boilers", "Emergency Repair", "Heat Exchangers"],
+    "certifications": ["EPA 608 Universal", "NATE - Gas Furnace", "NATE - Oil Furnace", "OSHA 30"],
+    "avatar": "MT",
+    "color": "#3B82F6",
+    "status": "available",
+    "yearsExperience": 14,
+    "rating": 4.9
+  },
+  {
+    "id": "tech-002",
+    "name": "Sarah Chen",
+    "phone": "484-320-1146",
+    "email": "schen@alltempphilly.com",
+    "specialties": ["Central AC", "Heat Pumps", "Refrigerant Systems", "Indoor Air Quality"],
+    "certifications": ["EPA 608 Universal", "NATE - Air Conditioning", "NATE - Heat Pump", "LEED Green Associate"],
+    "avatar": "SC",
+    "color": "#F97316",
+    "status": "available",
+    "yearsExperience": 8,
+    "rating": 4.8
+  },
+  {
+    "id": "tech-003",
+    "name": "James Wilson",
+    "phone": "484-320-1147",
+    "email": "jwilson@alltempphilly.com",
+    "specialties": ["System Installation", "Ductwork", "Zoning Systems", "Commercial HVAC"],
+    "certifications": ["EPA 608 Universal", "NATE - Air Distribution", "NATE - Senior HVAC Technician", "BPI Building Analyst"],
+    "avatar": "JW",
+    "color": "#10B981",
+    "status": "on-job",
+    "yearsExperience": 18,
+    "rating": 4.9
+  },
+  {
+    "id": "tech-004",
+    "name": "Ana Rodriguez",
+    "phone": "484-320-1148",
+    "email": "arodriguez@alltempphilly.com",
+    "specialties": ["Heat Pumps", "Mini-Splits", "Thermostats", "Energy Audits"],
+    "certifications": ["EPA 608 Universal", "NATE - Heat Pump", "Mitsubishi Diamond Contractor", "Carrier Factory Authorized"],
+    "avatar": "AR",
+    "color": "#8B5CF6",
+    "status": "available",
+    "yearsExperience": 6,
+    "rating": 4.7
+  },
+  {
+    "id": "tech-005",
+    "name": "Kevin O'Brien",
+    "phone": "484-320-1149",
+    "email": "kobrien@alltempphilly.com",
+    "specialties": ["Maintenance", "Tune-Ups", "Filter Systems", "Water Heaters", "Humidifiers"],
+    "certifications": ["EPA 608 Universal", "NATE - Air Conditioning", "NATE - Gas Furnace"],
+    "avatar": "KO",
+    "color": "#EC4899",
+    "status": "available",
+    "yearsExperience": 4,
+    "rating": 4.6
+  }
+]

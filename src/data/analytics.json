@@ -1,0 +1,57 @@
+{
+  "containmentRate": 78.5,
+  "bookingRate": 62.3,
+  "avgResponseTime": 1.8,
+  "emergencySpeed": 4.2,
+  "afterHoursRate": 23.1,
+  "dailyMetrics": [
+    { "date": "2026-02-01", "totalCalls": 38, "aiHandled": 30, "transferred": 5, "booked": 22, "missed": 3, "afterHours": 8 },
+    { "date": "2026-02-02", "totalCalls": 42, "aiHandled": 34, "transferred": 4, "booked": 25, "missed": 4, "afterHours": 10 },
+    { "date": "2026-02-03", "totalCalls": 35, "aiHandled": 28, "transferred": 4, "booked": 20, "missed": 3, "afterHours": 7 },
+    { "date": "2026-02-04", "totalCalls": 40, "aiHandled": 32, "transferred": 5, "booked": 24, "missed": 3, "afterHours": 9 },
+    { "date": "2026-02-05", "totalCalls": 45, "aiHandled": 36, "transferred": 6, "booked": 28, "missed": 3, "afterHours": 11 },
+    { "date": "2026-02-06", "totalCalls": 33, "aiHandled": 26, "transferred": 4, "booked": 19, "missed": 3, "afterHours": 8 },
+    { "date": "2026-02-07", "totalCalls": 28, "aiHandled": 22, "transferred": 3, "booked": 15, "missed": 3, "afterHours": 7 },
+    { "date": "2026-02-08", "totalCalls": 41, "aiHandled": 33, "transferred": 5, "booked": 25, "missed": 3, "afterHours": 9 },
+    { "date": "2026-02-09", "totalCalls": 39, "aiHandled": 31, "transferred": 5, "booked": 23, "missed": 3, "afterHours": 8 },
+    { "date": "2026-02-10", "totalCalls": 44, "aiHandled": 35, "transferred": 6, "booked": 27, "missed": 3, "afterHours": 10 },
+    { "date": "2026-02-11", "totalCalls": 47, "aiHandled": 38, "transferred": 5, "booked": 29, "missed": 4, "afterHours": 12 },
+    { "date": "2026-02-12", "totalCalls": 43, "aiHandled": 34, "transferred": 6, "booked": 26, "missed": 3, "afterHours": 10 },
+    { "date": "2026-02-13", "totalCalls": 36, "aiHandled": 29, "transferred": 4, "booked": 21, "missed": 3, "afterHours": 8 },
+    { "date": "2026-02-14", "totalCalls": 30, "aiHandled": 24, "transferred": 3, "booked": 17, "missed": 3, "afterHours": 7 },
+    { "date": "2026-02-15", "totalCalls": 40, "aiHandled": 32, "transferred": 5, "booked": 24, "missed": 3, "afterHours": 9 },
+    { "date": "2026-02-16", "totalCalls": 38, "aiHandled": 30, "transferred": 5, "booked": 22, "missed": 3, "afterHours": 9 },
+    { "date": "2026-02-17", "totalCalls": 46, "aiHandled": 37, "transferred": 6, "booked": 28, "missed": 3, "afterHours": 11 },
+    { "date": "2026-02-18", "totalCalls": 50, "aiHandled": 40, "transferred": 6, "booked": 31, "missed": 4, "afterHours": 12 },
+    { "date": "2026-02-19", "totalCalls": 44, "aiHandled": 35, "transferred": 6, "booked": 27, "missed": 3, "afterHours": 10 },
+    { "date": "2026-02-20", "totalCalls": 37, "aiHandled": 30, "transferred": 4, "booked": 22, "missed": 3, "afterHours": 8 },
+    { "date": "2026-02-21", "totalCalls": 31, "aiHandled": 25, "transferred": 3, "booked": 18, "missed": 3, "afterHours": 7 },
+    { "date": "2026-02-22", "totalCalls": 42, "aiHandled": 34, "transferred": 5, "booked": 25, "missed": 3, "afterHours": 10 },
+    { "date": "2026-02-23", "totalCalls": 39, "aiHandled": 31, "transferred": 5, "booked": 23, "missed": 3, "afterHours": 9 },
+    { "date": "2026-02-24", "totalCalls": 48, "aiHandled": 38, "transferred": 6, "booked": 30, "missed": 4, "afterHours": 11 },
+    { "date": "2026-02-25", "totalCalls": 51, "aiHandled": 41, "transferred": 6, "booked": 32, "missed": 4, "afterHours": 13 },
+    { "date": "2026-02-26", "totalCalls": 43, "aiHandled": 34, "transferred": 6, "booked": 26, "missed": 3, "afterHours": 10 },
+    { "date": "2026-02-27", "totalCalls": 47, "aiHandled": 38, "transferred": 5, "booked": 29, "missed": 4, "afterHours": 11 },
+    { "date": "2026-02-28", "totalCalls": 45, "aiHandled": 36, "transferred": 6, "booked": 27, "missed": 3, "afterHours": 10 }
+  ],
+  "callsByType": {
+    "emergency": 45,
+    "service": 120,
+    "install": 35,
+    "inquiry": 67,
+    "complaint": 12,
+    "after-hours": 38
+  },
+  "csrScores": [
+    { "name": "Alex AI", "score": 92, "callsHandled": 847, "avgDuration": 185, "bookingRate": 64.2, "customerSatisfaction": 94.1 },
+    { "name": "DJ Meadows", "score": 88, "callsHandled": 124, "avgDuration": 245, "bookingRate": 58.3, "customerSatisfaction": 91.5 },
+    { "name": "Lisa Chen", "score": 85, "callsHandled": 98, "avgDuration": 210, "bookingRate": 55.1, "customerSatisfaction": 89.2 },
+    { "name": "Mike Torres", "score": 78, "callsHandled": 67, "avgDuration": 290, "bookingRate": 48.5, "customerSatisfaction": 86.8 }
+  ],
+  "campaignROI": [
+    { "name": "Lead Rehash Q1", "spend": 450, "revenue": 8750, "roi": 1844, "leads": 45, "conversions": 8 },
+    { "name": "Unsold Estimates", "spend": 320, "revenue": 12400, "roi": 3775, "leads": 28, "conversions": 5 },
+    { "name": "Membership Renewal", "spend": 280, "revenue": 6200, "roi": 2114, "leads": 52, "conversions": 18 },
+    { "name": "Speed-to-Lead Feb", "spend": 180, "revenue": 4300, "roi": 2289, "leads": 18, "conversions": 6 }
+  ]
+}

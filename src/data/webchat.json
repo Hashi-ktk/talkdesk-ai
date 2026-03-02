@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "totalChats": 47,
+    "completedChats": 38,
+    "droppedChats": 6,
+    "reEngagedChats": 3,
+    "avgResponseTime": "8s",
+    "chatToCallRate": 0.34,
+    "bookingRate": 0.42
+  },
+  "config": {
+    "phoneFirstEnabled": true,
+    "greeting": "Hi! I'm Alex, All-Temp's virtual assistant. I can help you schedule service, get a quote, or answer questions about your HVAC system. How can I help?",
+    "smsReEngagement": true,
+    "smsReEngagementDelay": 30,
+    "smsReEngagementMessage": "Hi! It looks like we got disconnected. If you still need help with your HVAC, reply here or call us at (610) 555-1000. We're happy to help!",
+    "operatingHours": "24/7 with live handoff during business hours",
+    "maxWaitTime": 120
+  },
+  "conversations": [
+    {
+      "id": "wc-001",
+      "customerName": "Sarah Mitchell",
+      "status": "completed",
+      "startedAt": "2026-02-27T10:15:00Z",
+      "duration": 245,
+      "messages": 12,
+      "topic": "Furnace repair scheduling",
+      "outcome": "Appointment booked - Feb 28 AM",
+      "convertedToCall": false
+    },
+    {
+      "id": "wc-002",
+      "customerName": "Anonymous Visitor",
+      "status": "dropped",
+      "startedAt": "2026-02-27T10:45:00Z",
+      "duration": 65,
+      "messages": 3,
+      "topic": "Heat pump pricing inquiry",
+      "outcome": "Visitor left after 3 messages",
+      "convertedToCall": false
+    },
+    {
+      "id": "wc-003",
+      "customerName": "Kevin Malloy",
+      "status": "re-engaged",
+      "startedAt": "2026-02-27T11:02:00Z",
+      "duration": 180,
+      "messages": 8,
+      "topic": "AC installation quote",
+      "outcome": "Re-engaged via SMS, called in and booked estimate",
+      "convertedToCall": true
+    },
+    {
+      "id": "wc-004",
+      "customerName": "Lauren Torres",
+      "status": "completed",
+      "startedAt": "2026-02-27T11:30:00Z",
+      "duration": 310,
+      "messages": 15,
+      "topic": "Maintenance plan comparison",
+      "outcome": "Transferred to phone for plan signup",
+      "convertedToCall": true
+    },
+    {
+      "id": "wc-005",
+      "customerName": "Anonymous Visitor",
+      "status": "completed",
+      "startedAt": "2026-02-27T12:15:00Z",
+      "duration": 120,
+      "messages": 6,
+      "topic": "Service area check",
+      "outcome": "Confirmed in service area, provided phone number",
+      "convertedToCall": false
+    },
+    {
+      "id": "wc-006",
+      "customerName": "David Nguyen",
+      "status": "dropped",
+      "startedAt": "2026-02-27T13:05:00Z",
+      "duration": 42,
+      "messages": 2,
+      "topic": "Unknown - left before topic identified",
+      "outcome": "SMS re-engagement sent, no response yet",
+      "convertedToCall": false
+    },
+    {
+      "id": "wc-007",
+      "customerName": "Michelle Parker",
+      "status": "completed",
+      "startedAt": "2026-02-26T09:20:00Z",
+      "duration": 195,
+      "messages": 10,
+      "topic": "Thermostat troubleshooting",
+      "outcome": "Issue resolved via chat - thermostat reboot",
+      "convertedToCall": false
+    },
+    {
+      "id": "wc-008",
+      "customerName": "Robert Kim",
+      "status": "re-engaged",
+      "startedAt": "2026-02-26T14:10:00Z",
+      "duration": 150,
+      "messages": 7,
+      "topic": "Emergency - no heat",
+      "outcome": "Re-engaged via SMS, transferred to emergency line",
+      "convertedToCall": true
+    }
+  ]
+}

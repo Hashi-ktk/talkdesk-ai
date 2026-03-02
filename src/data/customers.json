@@ -1,0 +1,360 @@
+[
+  {
+    "id": "cust-001",
+    "name": "Robert & Linda Patterson",
+    "phone": "6102543189",
+    "email": "rpatterson@comcast.net",
+    "address": { "street": "247 Conestoga Rd", "city": "Wayne", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-001", "type": "ac", "brand": "Carrier", "model": "24ACC636A003", "installDate": "2019-06-15", "warrantyExpiry": "2029-06-15", "lastService": "2025-09-12", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-002", "type": "furnace", "brand": "Carrier", "model": "59SC5A080E17", "installDate": "2019-06-15", "warrantyExpiry": "2029-06-15", "lastService": "2025-11-03", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2024-01-15", "endDate": "2026-01-15", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-03-15" },
+    "serviceHistory": [
+      { "id": "sh-001", "date": "2025-11-03", "type": "Maintenance", "description": "Furnace tune-up. All checks passed.", "technicianId": "tech-001", "cost": 0, "status": "completed" },
+      { "id": "sh-002", "date": "2025-09-12", "type": "Maintenance", "description": "AC tune-up, cleaned coils, checked refrigerant.", "technicianId": "tech-002", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member", "wayne"],
+    "createdAt": "2019-06-10",
+    "notes": "Preferred scheduling: weekday mornings. Two large dogs in home."
+  },
+  {
+    "id": "cust-002",
+    "name": "Maria Gonzalez",
+    "phone": "6105274821",
+    "email": "mgonzalez.home@gmail.com",
+    "address": { "street": "835 Montgomery Ave", "city": "Bryn Mawr", "state": "PA", "zip": "19010" },
+    "equipment": [
+      { "id": "eq-003", "type": "heat-pump", "brand": "Lennox", "model": "XP25-048-230A", "installDate": "2021-04-10", "warrantyExpiry": "2031-04-10", "lastService": "2025-10-18", "condition": "excellent", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "elite", "status": "active", "startDate": "2024-06-01", "endDate": "2026-06-01", "visitsPerYear": 4, "price": 499, "nextVisitDate": "2026-03-15" },
+    "serviceHistory": [
+      { "id": "sh-003", "date": "2025-10-18", "type": "Maintenance", "description": "Quarterly heat pump inspection, all normal.", "technicianId": "tech-003", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "elite-member"],
+    "createdAt": "2021-04-05",
+    "notes": "Works from home, flexible scheduling. Prefers text confirmations."
+  },
+  {
+    "id": "cust-003",
+    "name": "Marcus & Diane Thompson",
+    "phone": "4845550103",
+    "email": "mthompson@email.com",
+    "address": { "street": "1520 DeKalb Pike", "city": "King of Prussia", "state": "PA", "zip": "19406" },
+    "equipment": [
+      { "id": "eq-005", "type": "ac", "brand": "Trane", "model": "XR16", "installDate": "2016-06-10", "warrantyExpiry": "2026-06-10", "lastService": "2025-05-15", "condition": "fair", "fuelType": "electric" },
+      { "id": "eq-006", "type": "furnace", "brand": "Trane", "model": "S9X2", "installDate": "2016-06-10", "warrantyExpiry": "2026-06-10", "lastService": "2025-10-22", "condition": "fair", "fuelType": "gas" }
+    ],
+    "maintenancePlan": null,
+    "serviceHistory": [
+      { "id": "sh-005", "date": "2025-10-22", "type": "Repair", "description": "Replaced ignitor on furnace, tested all safeties.", "technicianId": "tech-002", "cost": 375, "status": "completed" },
+      { "id": "sh-006", "date": "2025-05-15", "type": "Repair", "description": "Recharged refrigerant, found small leak at service valve.", "technicianId": "tech-001", "cost": 425, "status": "completed" }
+    ],
+    "tags": ["residential", "repair-history"],
+    "createdAt": "2020-08-12",
+    "notes": "Equipment aging, good candidate for replacement. Quoted new system in 2025."
+  },
+  {
+    "id": "cust-004",
+    "name": "Patricia Callahan",
+    "phone": "6105550104",
+    "email": "pcallahan@email.com",
+    "address": { "street": "67 Ardmore Ave", "city": "Ardmore", "state": "PA", "zip": "19003" },
+    "equipment": [
+      { "id": "eq-007", "type": "furnace", "brand": "Rheem", "model": "R96VA", "installDate": "2020-11-05", "warrantyExpiry": "2030-11-05", "lastService": "2025-11-01", "condition": "good", "fuelType": "gas" },
+      { "id": "eq-008", "type": "ac", "brand": "Rheem", "model": "RA1636AJ", "installDate": "2020-11-05", "warrantyExpiry": "2030-11-05", "lastService": "2025-06-18", "condition": "good", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "basic", "status": "active", "startDate": "2025-01-01", "endDate": "2027-01-01", "visitsPerYear": 2, "price": 189, "nextVisitDate": "2026-05-01" },
+    "serviceHistory": [
+      { "id": "sh-007", "date": "2025-11-01", "type": "Maintenance", "description": "Annual furnace tune-up, replaced filter.", "technicianId": "tech-002", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "basic-member"],
+    "createdAt": "2020-11-01",
+    "notes": "Elderly customer, please be patient with explanations."
+  },
+  {
+    "id": "cust-005",
+    "name": "David & Amy Chen",
+    "phone": "6105550105",
+    "email": "dachen@email.com",
+    "address": { "street": "390 Sugartown Rd", "city": "Devon", "state": "PA", "zip": "19333" },
+    "equipment": [
+      { "id": "eq-009", "type": "mini-split", "brand": "Mitsubishi", "model": "MSZ-FH18NA", "installDate": "2023-08-14", "warrantyExpiry": "2035-08-14", "lastService": "2025-08-20", "condition": "excellent", "fuelType": "electric" },
+      { "id": "eq-010", "type": "mini-split", "brand": "Mitsubishi", "model": "MSZ-FH12NA", "installDate": "2023-08-14", "warrantyExpiry": "2035-08-14", "lastService": "2025-08-20", "condition": "excellent", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 2, "price": 349, "nextVisitDate": "2026-04-01" },
+    "serviceHistory": [
+      { "id": "sh-008", "date": "2025-08-20", "type": "Maintenance", "description": "Cleaned indoor/outdoor units, checked refrigerant.", "technicianId": "tech-003", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member", "mini-split"],
+    "createdAt": "2023-08-10",
+    "notes": "Multi-zone mini-split in converted attic and sunroom."
+  },
+  {
+    "id": "cust-006",
+    "name": "Thomas Wright",
+    "phone": "4845550106",
+    "email": "twright@email.com",
+    "address": { "street": "215 King St", "city": "Malvern", "state": "PA", "zip": "19355" },
+    "equipment": [
+      { "id": "eq-011", "type": "boiler", "brand": "Weil-McLain", "model": "ECO 155", "installDate": "2014-10-20", "warrantyExpiry": "2024-10-20", "lastService": "2025-09-30", "condition": "fair", "fuelType": "oil" }
+    ],
+    "maintenancePlan": null,
+    "serviceHistory": [
+      { "id": "sh-009", "date": "2025-09-30", "type": "Repair", "description": "Replaced circulator pump, flushed system.", "technicianId": "tech-004", "cost": 650, "status": "completed" },
+      { "id": "sh-010", "date": "2025-01-15", "type": "Emergency", "description": "No heat - replaced zone valve, restored heating.", "technicianId": "tech-002", "cost": 520, "status": "completed" }
+    ],
+    "tags": ["residential", "boiler-system", "warranty-expired"],
+    "createdAt": "2018-03-10",
+    "notes": "Boiler warranty expired. Should discuss replacement options."
+  },
+  {
+    "id": "cust-007",
+    "name": "Susan & Michael O'Donnell",
+    "phone": "6105550107",
+    "email": "odonnell.sm@email.com",
+    "address": { "street": "445 Haverford Rd", "city": "Havertown", "state": "PA", "zip": "19083" },
+    "equipment": [
+      { "id": "eq-013", "type": "ac", "brand": "Goodman", "model": "GSX160361", "installDate": "2021-07-22", "warrantyExpiry": "2031-07-22", "lastService": "2025-06-10", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-014", "type": "furnace", "brand": "Goodman", "model": "GMVC960803BN", "installDate": "2021-07-22", "warrantyExpiry": "2031-07-22", "lastService": "2025-10-28", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "basic", "status": "pending-renewal", "startDate": "2024-01-01", "endDate": "2026-01-01", "visitsPerYear": 2, "price": 189, "nextVisitDate": "2026-03-01" },
+    "serviceHistory": [
+      { "id": "sh-011", "date": "2025-10-28", "type": "Maintenance", "description": "Fall tune-up, all systems normal.", "technicianId": "tech-001", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "renewal-due"],
+    "createdAt": "2021-07-18",
+    "notes": "Plan renewal due soon. Good referral source."
+  },
+  {
+    "id": "cust-008",
+    "name": "James & Rosa Martinez",
+    "phone": "6105550108",
+    "email": "martinez.jr@email.com",
+    "address": { "street": "88 State St", "city": "Media", "state": "PA", "zip": "19063" },
+    "equipment": [
+      { "id": "eq-015", "type": "heat-pump", "brand": "Bryant", "model": "288BNV048000", "installDate": "2024-04-10", "warrantyExpiry": "2034-04-10", "lastService": "2025-10-15", "condition": "excellent", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2024-04-15", "endDate": "2027-04-15", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-04-10" },
+    "serviceHistory": [
+      { "id": "sh-012", "date": "2025-10-15", "type": "Maintenance", "description": "First annual maintenance, all excellent.", "technicianId": "tech-003", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member", "new-install"],
+    "createdAt": "2024-04-05",
+    "notes": "New construction home. Energy-conscious."
+  },
+  {
+    "id": "cust-009",
+    "name": "Karen Bishop",
+    "phone": "4845550109",
+    "email": "kbishop@email.com",
+    "address": { "street": "1200 Lancaster Ave", "city": "Radnor", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-016", "type": "ac", "brand": "American Standard", "model": "4A7A6036H", "installDate": "2017-04-28", "warrantyExpiry": "2027-04-28", "lastService": "2025-06-25", "condition": "fair", "fuelType": "electric" },
+      { "id": "eq-017", "type": "furnace", "brand": "American Standard", "model": "AUD2B080A9V3", "installDate": "2017-04-28", "warrantyExpiry": "2027-04-28", "lastService": "2025-11-05", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": null,
+    "serviceHistory": [
+      { "id": "sh-013", "date": "2025-11-05", "type": "Repair", "description": "Replaced blower motor capacitor.", "technicianId": "tech-001", "cost": 195, "status": "completed" }
+    ],
+    "tags": ["residential", "repair-history"],
+    "createdAt": "2019-06-15",
+    "notes": "AC evaporator coil leaking, quoted for replacement."
+  },
+  {
+    "id": "cust-010",
+    "name": "Edward & Lisa Park",
+    "phone": "6105550110",
+    "email": "epark@email.com",
+    "address": { "street": "335 W Lancaster Ave", "city": "Wayne", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-018", "type": "ac", "brand": "York", "model": "YXV 18 SEER2", "installDate": "2024-06-05", "warrantyExpiry": "2034-06-05", "lastService": "2025-09-10", "condition": "excellent", "fuelType": "electric" },
+      { "id": "eq-019", "type": "furnace", "brand": "York", "model": "TM9V 98%", "installDate": "2024-06-05", "warrantyExpiry": "2034-06-05", "lastService": "2025-11-20", "condition": "excellent", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "elite", "status": "active", "startDate": "2024-06-10", "endDate": "2027-06-10", "visitsPerYear": 4, "price": 499, "nextVisitDate": "2026-03-05" },
+    "serviceHistory": [
+      { "id": "sh-015", "date": "2025-11-20", "type": "Maintenance", "description": "Quarterly inspection, all excellent.", "technicianId": "tech-002", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "elite-member", "new-install"],
+    "createdAt": "2024-06-01",
+    "notes": "Premium install. Very detail-oriented."
+  },
+  {
+    "id": "cust-011",
+    "name": "Nancy Fitzgerald",
+    "phone": "6105550111",
+    "email": "nfitzgerald@email.com",
+    "address": { "street": "78 Cricket Ave", "city": "Ardmore", "state": "PA", "zip": "19003" },
+    "equipment": [
+      { "id": "eq-020", "type": "furnace", "brand": "Carrier", "model": "58STA070", "installDate": "2012-09-15", "warrantyExpiry": "2022-09-15", "lastService": "2025-10-30", "condition": "poor", "fuelType": "gas" }
+    ],
+    "maintenancePlan": null,
+    "serviceHistory": [
+      { "id": "sh-016", "date": "2025-10-30", "type": "Repair", "description": "Heat exchanger cracked. Advised replacement.", "technicianId": "tech-002", "cost": 150, "status": "completed" }
+    ],
+    "tags": ["residential", "warranty-expired", "needs-replacement"],
+    "createdAt": "2017-02-20",
+    "notes": "URGENT: Furnace heat exchanger cracked. Needs replacement ASAP."
+  },
+  {
+    "id": "cust-012",
+    "name": "George & Helen Walsh",
+    "phone": "4845550112",
+    "email": "walshgh@email.com",
+    "address": { "street": "560 E Lancaster Ave", "city": "Wayne", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-021", "type": "ac", "brand": "Lennox", "model": "XC21-036-230", "installDate": "2021-05-20", "warrantyExpiry": "2031-05-20", "lastService": "2025-07-15", "condition": "excellent", "fuelType": "electric" },
+      { "id": "eq-022", "type": "furnace", "brand": "Lennox", "model": "SLP99UH110XV60C", "installDate": "2021-05-20", "warrantyExpiry": "2031-05-20", "lastService": "2025-11-08", "condition": "excellent", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "elite", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 4, "price": 499, "nextVisitDate": "2026-03-20" },
+    "serviceHistory": [
+      { "id": "sh-018", "date": "2025-11-08", "type": "Maintenance", "description": "Fall quarterly service, all components cleaned.", "technicianId": "tech-003", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "elite-member"],
+    "createdAt": "2021-05-15",
+    "notes": "Top-of-line Lennox system. Knowledgeable about HVAC."
+  },
+  {
+    "id": "cust-013",
+    "name": "Anthony & Sarah Rizzo",
+    "phone": "4845550116",
+    "email": "rizzo.as@email.com",
+    "address": { "street": "156 Airdale Rd", "city": "Bryn Mawr", "state": "PA", "zip": "19010" },
+    "equipment": [
+      { "id": "eq-030", "type": "ac", "brand": "Rheem", "model": "RA1648AJ", "installDate": "2023-05-15", "warrantyExpiry": "2033-05-15", "lastService": "2025-07-20", "condition": "excellent", "fuelType": "electric" },
+      { "id": "eq-031", "type": "furnace", "brand": "Rheem", "model": "R96VA084", "installDate": "2023-05-15", "warrantyExpiry": "2033-05-15", "lastService": "2025-11-15", "condition": "excellent", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-04-20" },
+    "serviceHistory": [
+      { "id": "sh-022", "date": "2025-11-15", "type": "Maintenance", "description": "Fall furnace tune-up, all within spec.", "technicianId": "tech-001", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member"],
+    "createdAt": "2023-05-10",
+    "notes": "Young family with newborn. Air quality concerns."
+  },
+  {
+    "id": "cust-014",
+    "name": "Bryn Mawr Medical Associates",
+    "phone": "6105550115",
+    "email": "facilities@brynmawrmedical.com",
+    "address": { "street": "919 Conestoga Rd", "city": "Bryn Mawr", "state": "PA", "zip": "19010" },
+    "equipment": [
+      { "id": "eq-027", "type": "ac", "brand": "Trane", "model": "4TTA2048A3", "installDate": "2022-03-01", "warrantyExpiry": "2032-03-01", "lastService": "2025-09-15", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-028", "type": "furnace", "brand": "Trane", "model": "S9V2B100U4", "installDate": "2022-03-01", "warrantyExpiry": "2032-03-01", "lastService": "2025-10-20", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "elite", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 4, "price": 899, "nextVisitDate": "2026-03-15" },
+    "serviceHistory": [
+      { "id": "sh-021", "date": "2025-10-20", "type": "Maintenance", "description": "Quarterly commercial service, all inspected.", "technicianId": "tech-005", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["commercial", "elite-member", "medical-facility", "priority"],
+    "createdAt": "2022-02-25",
+    "notes": "Medical facility - HVAC critical for patient care. Priority scheduling."
+  },
+  {
+    "id": "cust-015",
+    "name": "Frank & Deborah Martino",
+    "phone": "4845550120",
+    "email": "martino.fd@email.com",
+    "address": { "street": "75 Berkley Rd", "city": "Devon", "state": "PA", "zip": "19333" },
+    "equipment": [
+      { "id": "eq-038", "type": "heat-pump", "brand": "Carrier", "model": "25VNA036A003", "installDate": "2025-01-15", "warrantyExpiry": "2035-01-15", "lastService": "2025-01-15", "condition": "excellent", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2025-01-20", "endDate": "2028-01-20", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-07-15" },
+    "serviceHistory": [
+      { "id": "sh-026", "date": "2025-01-15", "type": "Install", "description": "Full heat pump system installation.", "technicianId": "tech-001", "cost": 12500, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member", "new-install", "heat-pump"],
+    "createdAt": "2024-12-10",
+    "notes": "Recent gas-to-heat-pump conversion. Very happy."
+  },
+  {
+    "id": "cust-016",
+    "name": "William Crawford",
+    "phone": "6105550117",
+    "email": "wcrawford@email.com",
+    "address": { "street": "89 Spring Mill Rd", "city": "Radnor", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-032", "type": "furnace", "brand": "York", "model": "TM9V080B12", "installDate": "2019-10-10", "warrantyExpiry": "2029-10-10", "lastService": "2025-10-25", "condition": "good", "fuelType": "gas" },
+      { "id": "eq-033", "type": "ac", "brand": "York", "model": "YXV 16 SEER", "installDate": "2019-10-10", "warrantyExpiry": "2029-10-10", "lastService": "2025-06-30", "condition": "good", "fuelType": "electric" }
+    ],
+    "maintenancePlan": { "type": "basic", "status": "active", "startDate": "2025-06-01", "endDate": "2027-06-01", "visitsPerYear": 2, "price": 189, "nextVisitDate": "2026-06-01" },
+    "serviceHistory": [
+      { "id": "sh-023", "date": "2025-10-25", "type": "Maintenance", "description": "Annual furnace inspection, tested CO levels.", "technicianId": "tech-004", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "basic-member"],
+    "createdAt": "2019-10-05",
+    "notes": "Retired firefighter. Safety-conscious, always asks about CO."
+  },
+  {
+    "id": "cust-017",
+    "name": "Catherine & Brian Kelly",
+    "phone": "6105550118",
+    "email": "kelly.cb@email.com",
+    "address": { "street": "302 Darby Rd", "city": "Havertown", "state": "PA", "zip": "19083" },
+    "equipment": [
+      { "id": "eq-034", "type": "ac", "brand": "Carrier", "model": "24ACC636A003", "installDate": "2020-06-20", "warrantyExpiry": "2030-06-20", "lastService": "2025-07-10", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-035", "type": "furnace", "brand": "Carrier", "model": "58STA090", "installDate": "2020-06-20", "warrantyExpiry": "2030-06-20", "lastService": "2025-11-02", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-04-25" },
+    "serviceHistory": [
+      { "id": "sh-024", "date": "2025-11-02", "type": "Maintenance", "description": "Fall maintenance, replaced UV bulb.", "technicianId": "tech-003", "cost": 45, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member", "air-quality"],
+    "createdAt": "2020-06-15",
+    "notes": "Has whole-home air purifier. Family has allergies."
+  },
+  {
+    "id": "cust-018",
+    "name": "Main Line Dental Group",
+    "phone": "6105550119",
+    "email": "office@mainlinedental.com",
+    "address": { "street": "500 E Lancaster Ave", "city": "Wayne", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-036", "type": "ac", "brand": "Lennox", "model": "XC25-060-230", "installDate": "2021-04-10", "warrantyExpiry": "2031-04-10", "lastService": "2025-09-05", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-037", "type": "furnace", "brand": "Lennox", "model": "SLP99UH090XV48C", "installDate": "2021-04-10", "warrantyExpiry": "2031-04-10", "lastService": "2025-10-15", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "elite", "status": "active", "startDate": "2024-01-01", "endDate": "2026-12-31", "visitsPerYear": 4, "price": 699, "nextVisitDate": "2026-03-10" },
+    "serviceHistory": [
+      { "id": "sh-025", "date": "2025-10-15", "type": "Maintenance", "description": "Quarterly commercial service, all nominal.", "technicianId": "tech-005", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["commercial", "elite-member", "dental-office"],
+    "createdAt": "2021-04-05",
+    "notes": "Dental office - temperature critical. After-hours access with code."
+  },
+  {
+    "id": "cust-019",
+    "name": "Richard Dunn",
+    "phone": "6105550114",
+    "email": "rdunn@email.com",
+    "address": { "street": "423 Conestoga Rd", "city": "Wayne", "state": "PA", "zip": "19087" },
+    "equipment": [
+      { "id": "eq-025", "type": "ac", "brand": "Carrier", "model": "24ANB148A003", "installDate": "2015-06-01", "warrantyExpiry": "2025-06-01", "lastService": "2025-06-01", "condition": "fair", "fuelType": "electric" },
+      { "id": "eq-026", "type": "furnace", "brand": "Carrier", "model": "58CVA070", "installDate": "2015-06-01", "warrantyExpiry": "2025-06-01", "lastService": "2025-11-12", "condition": "fair", "fuelType": "gas" }
+    ],
+    "maintenancePlan": null,
+    "serviceHistory": [
+      { "id": "sh-020", "date": "2025-11-12", "type": "Repair", "description": "Furnace short cycling - cleaned flame sensor.", "technicianId": "tech-002", "cost": 225, "status": "completed" }
+    ],
+    "tags": ["residential", "warranty-expired"],
+    "createdAt": "2017-09-05",
+    "notes": "Warranty just expired. Good candidate for maintenance plan."
+  },
+  {
+    "id": "cust-020",
+    "name": "Jennifer & Mark Sullivan",
+    "phone": "6105550121",
+    "email": "sullivans@email.com",
+    "address": { "street": "180 Greenfield Ave", "city": "Ardmore", "state": "PA", "zip": "19003" },
+    "equipment": [
+      { "id": "eq-039", "type": "ac", "brand": "Trane", "model": "XR17", "installDate": "2022-07-15", "warrantyExpiry": "2032-07-15", "lastService": "2025-07-05", "condition": "good", "fuelType": "electric" },
+      { "id": "eq-040", "type": "furnace", "brand": "Trane", "model": "XC95m", "installDate": "2022-07-15", "warrantyExpiry": "2032-07-15", "lastService": "2025-11-18", "condition": "good", "fuelType": "gas" }
+    ],
+    "maintenancePlan": { "type": "premium", "status": "active", "startDate": "2023-01-01", "endDate": "2026-01-01", "visitsPerYear": 2, "price": 299, "nextVisitDate": "2026-04-10" },
+    "serviceHistory": [
+      { "id": "sh-027", "date": "2025-11-18", "type": "Maintenance", "description": "Fall tune-up, calibrated thermostat.", "technicianId": "tech-001", "cost": 0, "status": "completed" }
+    ],
+    "tags": ["residential", "premium-member"],
+    "createdAt": "2022-07-10",
+    "notes": "Interested in smart thermostat upgrade."
+  }
+]
